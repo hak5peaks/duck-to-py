@@ -6,3 +6,5 @@ This script adds all the STRING and ENTER statements for quickly creating python
 simply put your python script in main.txt run the main.py and then check output.txt and there will be a python script converted
 
 ![Animated GIF](instruct.gif)
+
+main-STRINGLN uses `STRINGLN` rather than `STRING` `ENTER`
