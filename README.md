@@ -7,4 +7,4 @@ simply put your python script in main.txt run the main.py and then check output.
 
 ![Animated GIF](instruct.gif)
 
-main-STRINGLN uses `STRINGLN` rather than `STRING` `ENTER`
+`main-STRINGLN.py` uses `STRINGLN` rather than `STRING` `ENTER`
