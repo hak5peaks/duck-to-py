@@ -7,7 +7,6 @@ DELAY 500
     for line in lines:
         ducky_script += f"STRINGLN {line}\n"
 
-    ducky_script += "CTRL x\nY\nENTER\n"
     return ducky_script
 
 def read_file(file_path):
