@@ -22,12 +22,6 @@ def read_file(file_path):
 def main():
     python_script_path = "python-script-input.txt" 
     python_script_contents = read_file(python_script_path)
-
-    if python_script_contents.startswith("#!"):
-        print("The file appears to be a Python script.")
-    else:
-        print("Warning: The file may not be a valid Python script. Please ensure it starts with a shebang (#!).")
-
     ducky_payload = create_ducky_payload(python_script_contents)
 
     output_file_path = "output.txt"
