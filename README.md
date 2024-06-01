@@ -5,7 +5,7 @@ This script adds all the `STRING/STRINGLN` and `ENTER` statements for quickly cr
 
 This allows you to create the file locally on the machine if you cannot download it from a remote source.
 
-simply put your python script in main.txt run the main.py and then check output.txt and there will be a python script converted.
+simply put your python script in `python-script-input.txt` run the `STRING.py` or `STRINGLN.py` and then check output.txt and there will be your converted python script.
 
 ![Animated GIF](instruct.gif)
 
