@@ -20,7 +20,7 @@ def read_file(file_path):
         return f"An error occurred: {str(e)}"
 
 def main():
-    python_script_path = "main.txt" 
+    python_script_path = "python-script-input.txt" 
     python_script_contents = read_file(python_script_path)
 
     if python_script_contents.startswith("#!"):
